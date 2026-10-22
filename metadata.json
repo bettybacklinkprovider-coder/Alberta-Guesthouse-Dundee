@@ -1,0 +1,6 @@
+{
+  "name": "Alberta Guesthouse Dundee",
+  "description": "Boutique luxury guesthouse at 51 Forfar Rd, Dundee DD4 7BE, UK. En-suite rooms, exclusive packages, verified reviews, and instant WhatsApp booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
