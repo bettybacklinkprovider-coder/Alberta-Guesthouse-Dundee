@@ -41,7 +41,7 @@ export const ROOMS: Room[] = [
     maxGuests: 2,
     bedType: 'Super King Bed (Plush Pocket Sprung)',
     size: '28 m²',
-    image: '/src/assets/images/deluxe_king_room_1792671162903.jpg',
+    image: '/images/deluxe_king_room.jpg',
     description:
       'Our signature suite featuring rich Scottish oak panelling, fine linens, an expansive en-suite rainfall shower, and serene garden-facing bay windows.',
     amenities: [
@@ -64,7 +64,7 @@ export const ROOMS: Room[] = [
     maxGuests: 2,
     bedType: 'Plush Double Bed',
     size: '22 m²',
-    image: '/src/assets/images/superior_double_room_1792671163443.jpg',
+    image: '/images/superior_double_room.jpg',
     description:
       'Immaculately styled room with subtle heritage tartan accents, quiet courtyard views, bright natural morning light, and dedicated desk workstation.',
     amenities: [
@@ -87,7 +87,7 @@ export const ROOMS: Room[] = [
     maxGuests: 2,
     bedType: 'Two Single Spring Beds',
     size: '24 m²',
-    image: '/src/assets/images/deluxe_king_room_1792671162903.jpg',
+    image: '/images/deluxe_king_room.jpg',
     description:
       'Ideal for friends, golf duos playing Carnoustie or St Andrews, or colleagues visiting Dundee. Flexible arrangement with bright en-suite facilities.',
     amenities: [
@@ -109,7 +109,7 @@ export const ROOMS: Room[] = [
     maxGuests: 1,
     bedType: 'Single Orthopedic Bed',
     size: '16 m²',
-    image: '/src/assets/images/superior_double_room_1792671163443.jpg',
+    image: '/images/superior_double_room.jpg',
     description:
       'Thoughtfully appointed sanctuary for solo travelers, business contractors, and university visiting lecturers seeking quiet comfort and fast connectivity.',
     amenities: [
@@ -130,7 +130,7 @@ export const ROOMS: Room[] = [
     maxGuests: 3,
     bedType: '1 King Bed + 1 Single Bed',
     size: '34 m²',
-    image: '/src/assets/images/hero_alberta_guesthouse_1792671161301.jpg',
+    image: '/images/hero_alberta_guesthouse.jpg',
     description:
       'Spacious family accommodation comfortably hosting up to 3 guests with private seating nook, large en-suite, and ample wardrobe storage.',
     amenities: [
@@ -152,7 +152,7 @@ export const SPECIAL_OFFERS: SpecialOffer[] = [
     subtitle: 'Relaxing 2-night Friday to Sunday escape in coastal Dundee',
     category: 'weekend',
     categoryLabel: 'Weekend Special',
-    image: '/src/assets/images/scottish_breakfast_lounge_1792671163219.jpg',
+    image: '/images/scottish_breakfast_lounge.jpg',
     originalPrice: 190,
     discountedPrice: 159,
     discountPercentage: 16,
@@ -175,7 +175,7 @@ export const SPECIAL_OFFERS: SpecialOffer[] = [
     subtitle: 'Special discounted rates for guests staying 4 nights or longer',
     category: 'extended',
     categoryLabel: 'Longer Stay Savings',
-    image: '/src/assets/images/superior_double_room_1792671163443.jpg',
+    image: '/images/superior_double_room.jpg',
     originalPrice: 380,
     discountedPrice: 299,
     discountPercentage: 21,
@@ -198,7 +198,7 @@ export const SPECIAL_OFFERS: SpecialOffer[] = [
     subtitle: 'An intimate candlelit retreat for couples visiting Dundee & Tayside',
     category: 'romantic',
     categoryLabel: 'Couples Escape',
-    image: '/src/assets/images/romantic_package_setup_1792671163548.jpg',
+    image: '/images/romantic_package_setup.jpg',
     originalPrice: 240,
     discountedPrice: 195,
     discountPercentage: 18,
@@ -221,7 +221,7 @@ export const SPECIAL_OFFERS: SpecialOffer[] = [
     subtitle: 'Stress-free Dundee basecamp for family adventures and museum visits',
     category: 'family',
     categoryLabel: 'Family Holiday',
-    image: '/src/assets/images/hero_alberta_guesthouse_1792671161301.jpg',
+    image: '/images/hero_alberta_guesthouse.jpg',
     originalPrice: 250,
     discountedPrice: 210,
     discountPercentage: 16,
@@ -244,7 +244,7 @@ export const SPECIAL_OFFERS: SpecialOffer[] = [
     subtitle: 'Tailored for corporate travelers, university lecturers & NHS contractors',
     category: 'business',
     categoryLabel: 'Corporate Traveler',
-    image: '/src/assets/images/deluxe_king_room_1792671162903.jpg',
+    image: '/images/deluxe_king_room.jpg',
     originalPrice: 110,
     discountedPrice: 89,
     discountPercentage: 19,
@@ -267,7 +267,7 @@ export const SPECIAL_OFFERS: SpecialOffer[] = [
     subtitle: 'Special golf and coastal season promotion with exclusive rate reduction',
     category: 'seasonal',
     categoryLabel: 'Seasonal Deal',
-    image: '/src/assets/images/scottish_breakfast_lounge_1792671163219.jpg',
+    image: '/images/scottish_breakfast_lounge.jpg',
     originalPrice: 195,
     discountedPrice: 165,
     discountPercentage: 15,
@@ -399,42 +399,50 @@ export const HOTEL_FACILITIES = [
   {
     title: 'Free Private Parking',
     description: 'On-site off-street driveway parking directly at 51 Forfar Road. Safe and convenient for cars and SUVs.',
-    icon: 'Car'
+    icon: 'Car',
+    image: '/images/parking_driveway_exterior.jpg'
   },
   {
     title: 'Scottish & Continental Breakfast',
     description: 'Freshly prepared morning breakfast, warm Scottish morning rolls, artisanal jams, and fresh ground coffee.',
-    icon: 'Coffee'
+    icon: 'Coffee',
+    image: '/images/scottish_breakfast_lounge.jpg'
   },
   {
     title: 'High-Speed Optical Wi-Fi',
     description: 'Complimentary fiber optic Wi-Fi throughout all guest bedrooms and communal areas (150+ Mbps).',
-    icon: 'Wifi'
+    icon: 'Wifi',
+    image: '/images/bedroom_workstation_wifi.jpg'
   },
   {
     title: 'Private En-Suite Bathrooms',
     description: 'Modern private en-suite showers with plush towels, heated towel rails, and Scottish Highland toiletries.',
-    icon: 'Bath'
+    icon: 'Bath',
+    image: '/images/ensuite_luxury_bathroom.jpg'
   },
   {
     title: 'In-Room Tea & Coffee Stations',
     description: 'Kettle, Scottish Highland teas, fresh ground roast coffee, hot chocolate, and traditional shortbread.',
-    icon: 'CupSoda'
+    icon: 'CupSoda',
+    image: '/images/tea_coffee_station.jpg'
   },
   {
     title: 'Smart 4K Entertainment',
     description: 'Modern flat-screen televisions with Freeview HD and built-in streaming app compatibility.',
-    icon: 'Tv'
+    icon: 'Tv',
+    image: '/images/smart_tv_bedroom.jpg'
   },
   {
     title: 'Prime Dundee Location',
     description: 'Situated on Forfar Rd with swift access to the Kingsway (A90), Dundee City Centre, and V&A Museum.',
-    icon: 'MapPin'
+    icon: 'MapPin',
+    image: '/images/hero_alberta_guesthouse.jpg'
   },
   {
     title: 'Daily Housekeeping',
     description: 'Immaculately maintained bedrooms and bathrooms sanitized and refreshed daily to luxury standards.',
-    icon: 'Sparkles'
+    icon: 'Sparkles',
+    image: '/images/deluxe_king_room.jpg'
   }
 ];
 

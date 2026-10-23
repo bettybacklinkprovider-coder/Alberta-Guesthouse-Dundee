@@ -30,7 +30,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           loop
           muted
           playsInline
-          poster="/src/assets/images/hero_alberta_guesthouse_1792671161301.jpg"
+          poster="/images/hero_alberta_guesthouse.jpg"
           className="w-full h-full object-cover object-center scale-105 transform motion-safe:transition-transform motion-safe:duration-1000"
         >
           <source
@@ -38,7 +38,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             type="video/mp4"
           />
           <img
-            src="/src/assets/images/hero_alberta_guesthouse_1792671161301.jpg"
+            src="/images/hero_alberta_guesthouse.jpg"
             alt="Alberta Guesthouse Dundee Exterior"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center"
